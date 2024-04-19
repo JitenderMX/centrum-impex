@@ -41,7 +41,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
     <Router>
-      <GlobalStyle/>
+      
       <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
